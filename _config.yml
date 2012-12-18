@@ -12,10 +12,10 @@ pygments: true
 title : pugBO
 tagline: PHP User Group Bologna
 author :
-  name : Name Lastname
-  email : blah@email.test
-  github : username
-  twitter : username
+  name : pugBO
+  email : bologna@ml.grusp.org
+  github : pugbo
+  twitter : pugBologna
   feedburner : feedname
 
 # The production_url is only used when full-domain names are needed
