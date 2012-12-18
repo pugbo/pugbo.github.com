@@ -1,9 +1,8 @@
 ---
 layout: page
-title: About
-tagline: Why
+title: Chi siamo
+tagline: Oltre al PHP e la gastronomia
 group: navigation
 ---
 {% include JB/setup %}
 
-Test about page

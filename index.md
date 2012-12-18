@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Hello World!
-tagline: Supporting tagline
+title: pugBO
+tagline: PHP, Birra & Mortadella
 ---
 {% include JB/setup %}
 
