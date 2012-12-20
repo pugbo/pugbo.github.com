@@ -15,7 +15,7 @@ ma prima ancora un gruppo di amici a cui piace bere birra e mangiare :)
 Come community locale stiamo creando un nuovo progetto: 
  [EventStorm](https://github.com/pugbo/eventstorm), restate sintonizzati!
 
-## Risorse
-* [pugBO su GrUSP](http://bologna.grusp.org/)
+## Riferimenti
+* [Blog](http://bologna.grusp.org/)
 * Twitter: [@pugBologna](http://twitter.com/pugBologna), [#pugBO](https://twitter.com/search?q=%23pugBO)
 * [Mailing List](http://bologna.grusp.org/mailing-list)
