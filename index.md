@@ -1,15 +1,10 @@
 ---
 layout: page
 title: PHP User Group Bologna
-tagline: PHP, Birra & Mortadella
+tagline: Documentazione tecnica
 ---
 {% include JB/setup %}
-Benvenuto, questo è il sito del pugBO, un gruppo di sviluppatori PHP,
-ma prima ancora un gruppo di amici a cui piace bere birra e mangiare :)
-
-## Cosa facciamo
-* Serate tematiche e progetti software in PHP
-* Bere birra e mangiare
+Benvenuto, questo è il sito di documentazione tecnica dei progetti targati pugBO, un gruppo di sviluppatori PHP di Bologna.
 
 ## Progetti
 Come community locale stiamo creando un nuovo progetto: 
