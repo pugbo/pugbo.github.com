@@ -4,7 +4,7 @@ title: PHP User Group Bologna
 tagline: Documentazione tecnica
 ---
 {% include JB/setup %}
-Benvenuto, questo è il sito di documentazione tecnica dei progetti targati pugBO, un gruppo di sviluppatori PHP di Bologna.
+Benvenuto, questo è il sito di documentazione tecnica dei progetti targati pugBO, il gruppo di riferimento per gli sviluppatori PHP di Bologna.
 
 ## Progetti
 Come community locale stiamo creando un nuovo progetto: 
