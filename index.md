@@ -11,6 +11,7 @@ Il nostro primo progetto è un sistema di gestione degli eventi: [EventStorm](ht
 Presto in arrivo molte novità. Restate sintonizzati!
 
 ## Riferimenti
+* [GitHub](https://github.com/pugbo)
 * [Blog](http://bologna.grusp.org/)
 * Twitter: [#pugBO](https://twitter.com/search?q=%23pugBO), [@pugBologna](http://twitter.com/pugBologna)
 * [Mailing List](http://bologna.grusp.org/mailing-list)
