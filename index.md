@@ -7,7 +7,7 @@ tagline: documentazione tecnica
 Benvenuto, questo è il sito di documentazione tecnica dei progetti targati pugBO, il gruppo di riferimento per gli sviluppatori PHP a Bologna.
 
 ## Progetti
-Il nostro primo progetto è un sistema di gestione degli eventi: [EventStorm](https://github.com/pugbo/eventstorm).
+Il nostro primo progetto è un sistema di gestione degli eventi: [EvenThor](https://github.com/pugbo/EvenThor).
 Presto in arrivo molte novità. Restate sintonizzati!
 
 ## Riferimenti
