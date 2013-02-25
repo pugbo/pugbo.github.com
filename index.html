@@ -1,0 +1,31 @@
+---
+layout: page
+title: PHP User Group Bologna
+tagline: documentazione tecnica
+---
+{% include JB/setup %}
+
+<div class="row">
+<div class="span8 index-posts">
+{% for post in site.posts limit: 5 %}
+<div class="entry" style='margin-bottom: 24px'>
+<h2><small class='meta'  style='float: right; margin-left:15px'>({{ post.date | date:"%Y-%m-%d" }})</small><a href="{{ post.url }}">{{ post.title }}</a></h2>
+<div class='excerpt'>{{ post.content | strip_html | truncatewords: 50 }}</div>
+</div>
+{% endfor %}
+</div>
+<div class="span4 sidebar">
+<p>Benvenuto, questo è il sito di documentazione tecnica dei progetti targati pugBO, il gruppo di riferimento per gli sviluppatori PHP a Bologna.</p>
+
+<h3>Progetti</h3>
+<p>Il nostro primo progetto è un sistema di gestione degli eventi: <a href="https://github.com/pugbo/EvenThor">EvenThor</a>. Presto in arrivo molte novità. Restate sintonizzati!</p>
+
+<h3>Riferimenti</h3>
+<ul>
+<li><a href="https://github.com/pugbo">GitHub</a></li>
+<li><a href="http://bologna.grusp.org/">Blog</a></li>
+<li>Twitter: <a href="https://twitter.com/search?q=%23pugBO">#pugBO</a>, <a href="http://twitter.com/pugBologna">@pugBologna</a></li>
+<li><a href="http://bologna.grusp.org/mailing-list">Mailing List</a></li>
+</ul>
+</div>
+</div>
