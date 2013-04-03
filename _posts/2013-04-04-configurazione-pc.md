@@ -20,11 +20,15 @@ pochi, anzi uno! Basta infatti lanciare ```vagrant up``` ed al resto pensa tutto
 ## Installazione
 Qui di seguito sono descritti i passi da effettuare, differenziati per sistema
 operativo.
-### Ubuntu e Mac
-1. Installate ruby, se non lo avete già fatto
-2. Installare NFS, su ubuntu il pacchetto si chiama ```nfs-kernel-server```
+### Ubuntu
+1. Installate ruby
+2. Installare il pacchetto ```nfs-kernel-server```
+3. Installate git
+4. Installate virtualbox scaricandolo dal [sito ufficiale](https://www.virtualbox.org/) o tramite repository
+5. Installate il pacchetto .deb Vagrant (occhio all'architettura!) rigorosamente scaricato dal [sito ufficiale](http://downloads.vagrantup.com/)
+6. (Opzionale) installate gitg e/o gitk per la visualizzazione grafica del repository
 
-### Ubuntu: repository Oracle (opzionale)
+#### Repository Oracle (opzionale)
 Se volete installare l'ultima versione di VirtualBox su ubuntu potete utilizzare i repository di Oracle, mediante tre semplici passi:
 
 1. ```echo deb http://download.virtualbox.org/virtualbox/debian `lsb_release -sc` contrib | sudo tee /etc/apt/sources.list.d/virtualbox.list```
@@ -34,10 +38,26 @@ Se volete installare l'ultima versione di VirtualBox su ubuntu potete utilizzare
 In questo caso il pacchetto da installare sarà virtualbox-4.2, se preferite
 invece il repository standard dovrete installare il pacchetto virtualbox.
 
-### Ubuntu, Windows e Mac
-1. Installate git, se usate Windows la versione consigliata è [msysGit](http://msysgit.github.com/)
-3. Installate virtualbox scaricandolo dal [sito ufficiale](https://www.virtualbox.org/) o tramite repository
-4. Installate il pacchetto Vagrant rigorosamente scaricato dal [sito ufficiale](http://downloads.vagrantup.com/)
+### Mac
+1. Installate virtualbox scaricandolo dal [sito ufficiale](https://www.virtualbox.org/)
+2. Installate il pacchetto .dmg di Vagrant rigorosamente scaricato dal [sito ufficiale](http://downloads.vagrantup.com/)
+3. (Opzionale) Aggiornate git con homebrew ```brew install git git-flow``` 
+3. (Opzionale) Installate [Atlassian SourceTree](http://www.sourcetreeapp.com/) per la visualizzazione grafica del repository
+
+### Windows
+1. Installate virtualbox scaricandolo dal [sito ufficiale](https://www.virtualbox.org/)
+2. Installate il pacchetto .msi di Vagrant rigorosamente scaricato dal [sito ufficiale](http://downloads.vagrantup.com/)
+3. Installate [Git for Windows](http://msysgit.github.com/)
+3. (Opzionale) Installate [Atlassian SourceTree](http://www.sourcetreeapp.com/) per la visualizzazione grafica del repository
+
+## Avviare la macchina virtuale
+Per avviare la macchina virtuale è sufficiente digitare con una console dentro la directory vagrant
+
+```vagrant up```
+
+### Importante!
+Testate il funzionamento della macchina virtuale prima della serata in modo
+da evitare a priori inconvenienti tecnici.
 
 ## Fork del repository
 Il progetto sarà completamente gestito mediante **pull request**, per far si che
