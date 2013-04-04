@@ -24,19 +24,9 @@ operativo.
 1. Installate ruby
 2. Installare il pacchetto ```nfs-kernel-server```
 3. Installate git
-4. Installate virtualbox scaricandolo dal [sito ufficiale](https://www.virtualbox.org/) o tramite repository
+4. Installate virtualbox tramite repository (se volete l'ultima versione seguite la guida sul sito)
 5. Installate il pacchetto .deb Vagrant (occhio all'architettura!) rigorosamente scaricato dal [sito ufficiale](http://downloads.vagrantup.com/)
 6. (Opzionale) installate gitg e/o gitk per la visualizzazione grafica del repository
-
-#### Repository Oracle (opzionale)
-Se volete installare l'ultima versione di VirtualBox su ubuntu potete utilizzare i repository di Oracle, mediante tre semplici passi:
-
-1. ```echo deb http://download.virtualbox.org/virtualbox/debian `lsb_release -sc` contrib | sudo tee /etc/apt/sources.list.d/virtualbox.list```
-2. ```wget -q http://download.virtualbox.org/virtualbox/debian/oracle_vbox.asc -O- | sudo apt-key add -```
-3. ```sudo apt-get update```
-
-In questo caso il pacchetto da installare sarà virtualbox-4.2, se preferite
-invece il repository standard dovrete installare il pacchetto virtualbox.
 
 ### Mac
 1. Installate virtualbox scaricandolo dal [sito ufficiale](https://www.virtualbox.org/)
